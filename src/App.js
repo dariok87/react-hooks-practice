@@ -21,6 +21,7 @@ function TodoForm({ addTodo }) {
         type="text"
         className="input"
         value={value}
+        placeholder="Add Todo..."
         onChange={(e) => setValue(e.target.value)}
       />
     </form>
@@ -42,6 +43,11 @@ function App() {
       isCompleted: false,
     },
   ]);
+
+  const addTodo = (text) => {
+    const newTodos = [...todos, { text }];
+    setTodos(newTodos);
+  };
 
   return (
     <div className="app">
