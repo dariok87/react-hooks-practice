@@ -49,6 +49,7 @@ function App() {
         {todos.map((todo, index) => (
           <Todo key={index} index={index} todo={todo} />
         ))}
+        <TodoForm addTodo={addTodo} />
       </div>
     </div>
   );
