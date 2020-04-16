@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-function Todo({ todo, index }) {
+function Todo({ todo, index, completeTodo }) {
   return (
     <div
       style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
