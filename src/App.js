@@ -9,7 +9,7 @@ function Todo({ todo, index }) {
     >
       {todo.text}
       <div>
-        <button>Complete</button>
+        <button onClick={() => completeTodo(index)}>Complete</button>
       </div>
     </div>
   );
