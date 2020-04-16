@@ -8,6 +8,9 @@ function Todo({ todo, index }) {
       className="todo"
     >
       {todo.text}
+      <div>
+        <button>Complete</button>
+      </div>
     </div>
   );
 }
