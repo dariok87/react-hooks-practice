@@ -30,3 +30,9 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.complete {
+  margin-right: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
