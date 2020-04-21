@@ -43,3 +43,10 @@
   width: 360px;
   outline: none;
 }
+
+.remove {
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 4px;
+}
