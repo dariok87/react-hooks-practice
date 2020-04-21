@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #209cee;
+  background: #000000;
   padding: 30px;
-  height: 100vh;
+  height: 93.8vh;
 }
 
 .todo-list {
@@ -16,7 +16,7 @@
   align-content: center;
   border-radius: 4px;
   padding: 5px;
-  width: 600px;
+  width: 700px;
 }
 
 .todo {
@@ -46,6 +46,8 @@
   outline: none;
   border-radius: 6px;
   font-family: "Montserrat", sans-serif;
+  border-color: rgb(4, 185, 240);
+  border-style: solid;
 }
 
 .remove {
@@ -55,8 +57,15 @@
   margin-right: 4px;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
+  border-width: 0px;
 }
 
 .remove:hover {
   color: red;
+}
+
+::placeholder {
+  color: rgb(4, 185, 240);
+  font-stretch: expanded;
+  font-size: 14px;
 }
