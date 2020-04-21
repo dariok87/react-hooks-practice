@@ -23,7 +23,7 @@
   background: rgb(4, 185, 240);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
   padding: 10px 10px;
-  font-size: 12px;
+  font-size: 16px;
   margin-bottom: 9px;
   border-radius: 3px;
   display: flex;
@@ -54,4 +54,9 @@
   outline: none;
   margin-right: 4px;
   font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.remove:hover {
+  color: red;
 }
