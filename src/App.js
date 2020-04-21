@@ -4,7 +4,7 @@ import "./App.css";
 function Todo({ todo, index, completeTodo, removeTodo }) {
   return (
     <div
-      style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
+      style={{ textDecoration: todo.isCompleted ? "line-through red" : "" }}
       className="todo"
     >
       {todo.text}
