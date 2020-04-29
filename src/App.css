@@ -73,3 +73,8 @@ body {
   font-stretch: expanded;
   font-size: 14px;
 }
+
+.add-button {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 36px;
+}
