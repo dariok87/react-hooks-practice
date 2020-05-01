@@ -77,4 +77,5 @@ body {
 .add-button {
   font-family: "Montserrat", sans-serif;
   margin-left: 36px;
+  cursor: pointer;
 }
