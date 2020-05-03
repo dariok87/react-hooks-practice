@@ -39,7 +39,7 @@ function TodoForm({ addTodo }) {
         placeholder="Add Todo..."
         onChange={(e) => setValue(e.target.value)}
       />
-      <button className="add-button">Add Activity</button>
+      <button className="add-button">+</button>
     </form>
   );
 }
