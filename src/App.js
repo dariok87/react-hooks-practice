@@ -40,6 +40,7 @@ function TodoForm({ addTodo }) {
         onChange={(e) => setValue(e.target.value)}
       />
       <button className="add-button">+</button>
+      <text>Add Activity</text>
     </form>
   );
 }
