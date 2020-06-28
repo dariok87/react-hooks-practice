@@ -85,3 +85,7 @@ body {
   outline: none;
   border-width: 1px;
 }
+
+.dark-mode {
+  background-color: #000;
+}
