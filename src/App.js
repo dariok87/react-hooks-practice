@@ -11,6 +11,8 @@ function App() {
     },
   ]);
 
+  const [darkMode, setDarkMode] = React.useState(false);
+
   const addTodo = (text) => {
     const newTodos = [...todos, { text }];
     setTodos(newTodos);
@@ -29,7 +31,7 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className={darkMode ? "app" : "dark-mode"}>
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo
