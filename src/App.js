@@ -33,7 +33,10 @@ function App() {
   return (
     <div className={darkMode ? "app" : "dark-mode"}>
       <div>
-        <button onClick={() => setDarkMode((prevMode) => !prevMode)}>
+        <button
+          className="nightmode-button"
+          onClick={() => setDarkMode((prevMode) => !prevMode)}
+        >
           Nightmode
         </button>
       </div>
