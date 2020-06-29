@@ -33,7 +33,9 @@ function App() {
   return (
     <div className={darkMode ? "app" : "dark-mode"}>
       <div>
-        <button>Nightmode</button>
+        <button onClick={() => setDarkMode((prevMode) => !prevMode)}>
+          Nightmode
+        </button>
       </div>
       <div className="todo-list">
         {todos.map((todo, index) => (
