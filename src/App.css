@@ -95,3 +95,7 @@ body {
   padding: 30px;
   height: 93.8vh;
 }
+
+.nightmode-button {
+  cursor: pointer;
+}
