@@ -32,6 +32,9 @@ function App() {
 
   return (
     <div className={darkMode ? "app" : "dark-mode"}>
+      <div>
+        <button>Nightmode</button>
+      </div>
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo
